@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Train Schedule!</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron text-center">
+                        <h1>Anytime is Train Time</h1>
+                        <h2>Choo Choo. Chee Chee.</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Current Train Schedule</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div id="content">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Train Name</th>
+                                            <th>Destination</th>
+                                            <th>Frequency (min)</th>
+                                            <th>Next Arrival</th>
+                                            <th>Minutes Away</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id ="tableContent">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Add Train</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <form id="form">
+                                <div class="form-group">
+                                    <label for="name">Train Name</label>
+                                    <input type="text" class="form-control" id="trainName" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="destination">Destination</label>
+                                    <input type="text" class="form-control" id="trainDestination" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="first">First Train Time(HH:mm-military time)</label>
+                                    <input type="text" class="form-control" id="firstTrain" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="frequency">Frequency</label>
+                                    <input type="text" class="form-control" id="trainFrequency" placeholder="">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script></script>
+    </body>
+</html>
