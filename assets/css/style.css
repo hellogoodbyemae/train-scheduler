@@ -1,0 +1,17 @@
+body {
+    margin: 50px;
+}
+
+.container {
+    border: solid 1px #000000;
+}
+
+.jumbotron {
+    margin-top: 15px;
+    background-color: #055fc5;
+    color: #ffffff;
+}
+
+.btn {
+    margin-bottom: 15px;
+}
