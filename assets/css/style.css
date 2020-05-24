@@ -1,9 +1,11 @@
 body {
     margin: 50px;
+    background-color: #9e5a00;
 }
 
 .container {
     border: solid 1px #000000;
+    background-color: #ffffff;
 }
 
 .jumbotron {
